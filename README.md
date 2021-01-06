@@ -1,30 +1,52 @@
-# Angular Material Dark Mode
+<h1 align="center">
+ Angular Material Dark Mode
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+## :rocket: Sobre a aplicação
 
-## Development server
+Demonstração de como implementar dark mode em aplicações Angular :smile:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![Alt text](src/assets/screenshot.gif "Screenshot")
 
-## Code scaffolding
+## Tecnologias utilizadas :memo:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Angular](https://angular.io)
+- [Angular Material](https://material.angular.io/)
+- [TypeScript](https://www.typescriptlang.org)
+- [Angular CLI](https://cli.angular.io)
+- [Node](https://nodejs.org/en/)
+- [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 
-## Build
+## Como utilizar 🤔
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+É necessário que você tenha o `angular-cli` instalado em sua máquina para que você consiga utilizar o `ng serve`, para subir o seu projeto.
 
-## Running unit tests
+Para insalar basta rodar o comando abaixo:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+npm install -g @angular/cli
+```
 
-## Running end-to-end tests
+Agora clone este repositório.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+git clone https://github.com/ruanvalente/github-explore-angular
+```
 
-## Further help
+Entre na pasta `github-explore-angular` e rode o comando `yarn` ou `npm install`, para instalar as dependências do projeto.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Agora é só rodar o comando `ng serve` dentro da pasta do projeto !
 
+```
+cd github-explore-angular
+
+ng serve --hmr
+```
+
+Pronto ! Agora basta acessar `http://localhost:4200` :smile:
+
+## Veja a aplicação no ar :tada:
+
+[Angular Material Dark Mode](https://joaopedromoraes.github.io/angular-material-dark-mode/)
 ## License/Licença do Projeto
 [MIT License](./LICENSE.md) © [João Pedro Moraes](http://github.com/joaopedromoraes)
