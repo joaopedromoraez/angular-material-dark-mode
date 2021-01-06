@@ -1,0 +1,108 @@
+<table class="widgetTable" cellspacing="0">
+  <tr>
+    <td class="widgetLabel">
+      Checkbox
+    </td>
+    <td>
+      <div class="inline-block margin-right-40">
+        <mat-checkbox>Unchecked</mat-checkbox>
+      </div>
+      <div class="inline-block margin-right-40">
+        <mat-checkbox [checked]="true">Checked</mat-checkbox>
+      </div>
+      <div class="inline-block margin-right-40">
+        <mat-checkbox [indeterminate]="true">Indeterminate</mat-checkbox>
+      </div>
+      <div class="inline-block margin-right-40">
+        <mat-checkbox disabled="true">Disabled</mat-checkbox>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td class="widgetLabel">
+      Radio button
+    </td>
+    <td>
+      <mat-radio-group>
+        <div class="inline-block margin-right-40">
+          <mat-radio-button value="primary" [checked]="true" color="primary">Primary</mat-radio-button>
+        </div>
+        <div class="inline-block margin-right-40">
+          <mat-radio-button value="accent" color="accent">Accent</mat-radio-button>
+        </div>
+        <div class="inline-block margin-right-40">
+          <mat-radio-button value="warn" color="warn">Warn</mat-radio-button>
+        </div>
+        <div class="inline-block margin-right-40">
+          <mat-radio-button value="option3" disabled="true">Disabled</mat-radio-button>
+        </div>
+      </mat-radio-group>
+    </td>
+  </tr>
+  <tr>
+    <td class="widgetLabel">Chips</td>
+    <td>
+      <mat-chip-list>
+        <mat-chip class="margin-right-40">One chip</mat-chip>
+        <mat-chip class="margin-right-40" color="primary" selected>Primary chip</mat-chip>
+        <mat-chip class="margin-right-40" color="accent" selected>Accent chip</mat-chip>
+        <mat-chip class="margin-right-40" color="warn" selected>Warn chip</mat-chip>
+      </mat-chip-list>
+    </td>
+  </tr>
+  <tr>
+    <td class="widgetLabel">Icon</td>
+    <td>
+      <mat-chip-list>
+        <mat-icon class="margin-right-40">home</mat-icon>
+        <mat-icon class="margin-right-40" color="primary">account_circle</mat-icon>
+        <mat-icon class="margin-right-40" color="accent">alarm</mat-icon>
+        <mat-icon class="margin-right-40" color="warn">power_settings_new</mat-icon>
+      </mat-chip-list>
+    </td>
+  </tr>
+  <tr>
+    <td class="widgetLabel">Progress bar</td>
+    <td>
+      <app-progressbar></app-progressbar>
+    </td>
+  </tr>
+  <tr>
+    <td class="widgetLabel">Autocomplete</td>
+    <td>
+      <app-autocomplete-example></app-autocomplete-example>
+    </td>
+  </tr>
+  <tr>
+    <td class="widgetLabel">Slide toggle</td>
+    <td>
+      <mat-slide-toggle class="margin-right-40 margin-bottom-20" checked="true">Default slide toggle</mat-slide-toggle>
+      <mat-slide-toggle class="margin-right-40 margin-bottom-20" checked="true" color="primary">Primary slide toggle</mat-slide-toggle>
+      <mat-slide-toggle class="margin-right-40 margin-bottom-20" checked="true" color="accent">Accent slide toggle</mat-slide-toggle>
+      <mat-slide-toggle class="margin-right-40 margin-bottom-20" checked="true" color="warn">Warn slide toggle</mat-slide-toggle>
+      <mat-slide-toggle class="margin-right-40 margin-bottom-20" disabled="true">Disabled slide toggle</mat-slide-toggle>
+    </td>
+  </tr>
+  <tr>
+    <td class="widgetLabel">Badge</td>
+    <td>
+        <span matBadge="4" matBadgeOverlap="false" class="margin-right-40">Default</span>
+        <span matBadge="9" matBadgeOverlap="false" class="margin-right-40" matBadgeColor="primary">Primary</span>
+        <span matBadge="3" matBadgeOverlap="false" class="margin-right-40" matBadgeColor="accent">Accent</span>
+        <span matBadge="5" matBadgeOverlap="false" class="margin-right-40" matBadgeColor="warn">Warn</span>
+    </td>
+  </tr>
+  <tr>
+    <td class="widgetLabel">Button</td>
+    <td>
+        <div fxLayout="row" fxLayoutAlign="space-between start" >
+        <button class="margin-right-40" mat-raised-button>Basic</button>
+        <button class="margin-right-40" mat-raised-button color="primary">Primary</button>
+        <button class="margin-right-40" mat-raised-button color="accent">Accent</button>
+        <button class="margin-right-40" mat-raised-button color="warn">Warn</button>
+        <button class="margin-right-40" mat-raised-button disabled>Disabled</button>
+        <a class="margin-right-40" mat-raised-button routerLink=".">Link</a>
+        </div>
+    </td>
+  </tr>
+</table>
