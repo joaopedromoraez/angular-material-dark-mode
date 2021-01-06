@@ -30,7 +30,7 @@ npm install -g @angular/cli
 Agora clone este repositório.
 
 ```
-git clone https://github.com/ruanvalente/github-explore-angular
+git clone https://github.com/JoaoPedroMoraes/angular-material-dark-mode
 ```
 
 Entre na pasta `github-explore-angular` e rode o comando `yarn` ou `npm install`, para instalar as dependências do projeto.
@@ -38,7 +38,7 @@ Entre na pasta `github-explore-angular` e rode o comando `yarn` ou `npm install`
 Agora é só rodar o comando `ng serve` dentro da pasta do projeto !
 
 ```
-cd github-explore-angular
+cd angular-material-dark-mode
 
 ng serve --hmr
 ```
