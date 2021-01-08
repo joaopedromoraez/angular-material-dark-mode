@@ -33,7 +33,7 @@ Agora clone este repositório.
 git clone https://github.com/JoaoPedroMoraes/angular-material-dark-mode
 ```
 
-Entre na pasta `github-explore-angular` e rode o comando `yarn` ou `npm install`, para instalar as dependências do projeto.
+Entre na pasta `angular-material-dark-mode` e rode o comando `yarn` ou `npm install`, para instalar as dependências do projeto.
 
 Agora é só rodar o comando `ng serve` dentro da pasta do projeto !
 
